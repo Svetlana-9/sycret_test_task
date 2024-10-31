@@ -1,0 +1,59 @@
+.listInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 30px 30px 10px 30px;
+}
+
+.inputs {
+  margin-top: 60px;
+  max-height: 600px;
+  border: 1px solid black;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.form {
+  max-width: 600px;
+  width: 100%;
+}
+
+input {
+  border-radius: 5px;
+  border: 1px solid black;
+  height: 30px;
+  font-size: 14px;
+}
+
+label {
+  margin-top: 20px;
+}
+
+.error {
+  color: red;
+}
+
+.buttons {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  font-family: "Hero";
+}
+
+#message {
+  resize: none;
+  border-radius: 10px;
+  padding-top: 10px;
+  height: 100px;
+  font-size: 14px;
+  font-family: Arial;
+}
+
+.nameInfoList, .productName{
+ text-align: center;
+}

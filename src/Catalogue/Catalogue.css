@@ -1,0 +1,78 @@
+.product {
+  max-width: 350px;
+  min-width: 200px;
+  height: 200px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 10%;
+  cursor: pointer;
+  transition: 0.2s;
+  padding: 10px;
+}
+
+.product:hover,
+.changed {
+  transform: scale(1.1);
+  background-color: rgb(222, 226, 217);
+}
+
+.productList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 40px;
+}
+
+.price {
+  font-size: 20px;
+}
+
+.catalogue {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.btn {
+  border: none;
+  text-decoration: none;
+  margin-top: 30px;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+  padding: 0.8em 1em calc(0.8em + 3px);
+  border-radius: 3px;
+  transition: 0.2s;
+  font-size: 16px;
+  font-family: "Hero";
+}
+
+.active {
+  background: rgb(73, 73, 99);
+  :hover {
+    background: rgb(96, 96, 133);
+  }
+  :active {
+    background: rgb(66, 66, 88);
+  }
+}
+
+.disabled {
+  background: rgb(160, 161, 162);
+}
+
+.underlined {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.name {
+  font-size: 40px;
+}
